@@ -1,0 +1,15 @@
+body {
+  background-image: url(https://pakutaso.cdn.rabify.me/shared/img/thumb/pakusky458A8740.jpg.webp?d=350);
+  background-size: cover;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer {
+  height: 80px;
+  background-color: lightblue;
+}
