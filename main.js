@@ -30,7 +30,7 @@ const quiz = {
   ],
 };
 
-const Result = function () {
+const Result = () => {
   quizText.textContent = quiz.text;
 
   choice1.textContent = quiz.choices[0].text;
@@ -39,7 +39,7 @@ const Result = function () {
   choice4.textContent = quiz.choices[3].text;
 };
 
-const choose = function (Number) {
+const choose = (Number) => {
   feedback.textContent = quiz.choices[Number].feedback;
 };
 
@@ -58,7 +58,7 @@ choice4.onclick = function () {
 
 Result();
 
-const altmsg = function () {
+const altmsg = () => {
   alert("日焼けマシンで皮がむけました。かゆいです...");
 };
 epi.onclick = altmsg;
